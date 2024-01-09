@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .attribution {
+        margin-top: 50px;
+    }
+}

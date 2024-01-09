@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* { 
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-box {
+    width: 220px;
+    height: 300px;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+    padding: 20px;
+    box-shadow: 0 20px 15px hsl(221, 100%, 96%);
+    color: #FFFFFF;
+}
+
+.resume-box h2 {
+    font-size: 15px;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+    /* margin: 15px; */
+}
+
+.resume-box .result {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px;
+    color: hsl(241, 100%, 89%)
+}
+
+.resume-box h3, .resume-box h2 {
+    margin: 10px
+}
+
+.your-result {
+    width: 110px;
+    height: 140px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.your-result strong {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.your-result p {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.summary-box {
+    width: 220px;
+    height: 300px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    padding: 20px;
+    box-shadow: 5px 20px 15px hsl(221, 100%, 96%);
+}
+
+.summary-box h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.reaction, .memory, .verbal, .visual {
+    display: flex;
+    font-size: 11px;
+    font-weight: 500;
+    justify-content: space-around;
+    gap: 15px;
+    width: 180px;
+    height: 30px;
+    align-items: center;
+}
+
+.reaction img, .memory img, .visual img, .verbal img {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.05);
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.reaction h3 {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.05);
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.memory h3 {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.05);
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.verbal h3 {
+    color: hsl(166, 100%, 37%);
+}
+
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.05);
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.visual h3 {
+    color: hsl(234, 85%, 45%);
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    background: hsl(224, 30%, 27%);
+    border: 1px solid hsl(224, 30%, 27%);
+    cursor: pointer;
+}
+
+button:hover {
+    background: hsl(241, 81%, 54%);
+    border: 1px solid hsl(241, 81%, 54%);
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+}
